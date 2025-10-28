@@ -112,7 +112,7 @@ if __name__ == "__main__":
     os.makedirs('output', exist_ok=True)
 
     # 可视化子图并保存
-    visualize_subgraph(data, num_nodes=200, save_path='output/cora_subgraph.png')
+    # visualize_subgraph(data, num_nodes=200, save_path='output/cora_subgraph.png')
     
     # # 可视化t-SNE并保存
-    # visualize_tsne(data, save_path='output/cora_tsne.png')
+    visualize_tsne(data, save_path='output/cora_tsne.png')
